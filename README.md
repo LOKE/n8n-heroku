@@ -11,3 +11,22 @@ Use the **Deploy to Heroku** button above to launch n8n on Heroku. When deployin
 Refer to the [Heroku n8n tutorial](https://docs.n8n.io/hosting/server-setups/heroku/) for more information.
 
 If you have questions after trying the tutorials, check out the [forums](https://community.n8n.io/).
+
+## Merging upstream changes
+
+To merge changes from the upstream n8n repository, you can use the following commands:
+
+```bash
+git remote add upstream https://github.com/n8n-io/n8n-heroku.git
+git fetch upstream
+git merge upstream/main
+git push origin main
+```
+
+## Pushing to Heroku
+
+```bash
+heroku git:remote -a loke-ops-n8n
+git push heroku main
+```
+
