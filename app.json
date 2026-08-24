@@ -7,13 +7,13 @@
       "automation"
     ],
     "website": "https://n8n.io",
-    "repository": "https://github.com/n8n-io/n8n-heroku",
-    "logo": "https://raw.githubusercontent.com/n8n-io/n8n-heroku/main/n8n_logo.png",
+    "repository": "https://github.com/LOKE/n8n-heroku",
+    "logo": "https://raw.githubusercontent.com/LOKE/n8n-heroku/main/n8n_logo.png",
     "success_url": "/",
     "stack": "container",
     "env": {
       "GENERIC_TIMEZONE": {
-        "description": "Time Zone to use with Heroku. You can find the name of your timezone for example here: https://momentjs.com/timezone/.",
+        "description": "Time Zone to use with Heroku. You can find the name of your timezone in the IANA tz database, for example here: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones.",
         "value": "Australia/Sydney"
       },
       "N8N_ENCRYPTION_KEY": {
@@ -33,7 +33,7 @@
       {
         "plan": "heroku-postgresql:essential-1",
         "options": {
-          "version": "17"
+          "version": "18"
         }
       }
     ]
