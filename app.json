@@ -13,7 +13,7 @@
     "stack": "container",
     "env": {
       "GENERIC_TIMEZONE": {
-        "description": "Time Zone to use with Heroku. You can find the name of your timezone in the IANA tz database, for example here: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones.",
+        "description": "Time Zone to use with Heroku. Must be an IANA time zone name (https://www.iana.org/time-zones), for example Australia/Sydney. A browsable list of names is at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones.",
         "value": "Australia/Sydney"
       },
       "N8N_ENCRYPTION_KEY": {
